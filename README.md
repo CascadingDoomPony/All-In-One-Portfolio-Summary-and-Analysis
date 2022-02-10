@@ -4,6 +4,24 @@ Team members: Shavan Patel, Kevin Chen, Arian Zehtab
 
 *CONVERT TO AUD (USD IF AUD NOT AVAILABLE for all data)*
 
+
+## PROJECT DESCRIPTION
+Program is a summary of current investment portfolio from multiple investment fields in one program
+We will cover stocks, crypto, and property
+---
+Help user get total ROI of all investments
+
+Help the user see historical data for his investment
+
+Help user compare investment performance and composition between investment types
+
+Help user analyse individual investment performance specific to each type
+---
+
+---
+Below is a summary of things we think we can do with the program
+---
+
 ## STOCKS 
 BASE
 ---
@@ -49,17 +67,3 @@ Extended analysis: ROI adjusted for loan
 
 
 Overall analysis: portfolio composition (start and current)
-
-
-# PRESENTATION
-
-## MOTIVATION AND SUMMARY
-Program is a summary of current investment portfolio of all fields in one program
-
-Help user get total ROI of all investments
-
-Help the user see historical data for his investment
-
-Help user compare investment performance and composition between investment types
-
-Help user analyse individual investment performance specific to each type
