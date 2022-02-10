@@ -63,7 +63,12 @@ Extended analysis: ROI adjusted for loan
 
 
 
-### 
-
+### Overall
 
 Overall analysis: portfolio composition (start and current)
+
+## Datasets
+
+Alpaca for stock and crypto
+
+Domain for property
