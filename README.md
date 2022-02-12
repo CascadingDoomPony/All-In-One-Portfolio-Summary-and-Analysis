@@ -72,3 +72,13 @@ Overall analysis: portfolio composition (start and current)
 Alpaca for stock and crypto
 
 Domain for property
+
+## Questions 
+
+Questions for Users (Property)
+1. How is my property performacing compare to the valuation?
+2. What is the average price for similar houses?
+3. Rent vs Average/median rent in the area?
+4. Visual images and garph on how my propety is peformancing 
+5. Cap Rate of the investment? or Gross Yield?
+6. Opinion on wheather I show to sell the property or keep the property 
