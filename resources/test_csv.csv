@@ -1,3 +1,5 @@
-symbol,date,amount
-GOOG,05/19/2016,500
-AAPL,01/03/2019,500
+symbol,date,amount,order
+GOOG,05/19/2016,500,buy
+AAPL,01/03/2019,500,buy
+GOOG,05/20/2016,500,sell
+GOOG,05/24/2016,1000,buy
