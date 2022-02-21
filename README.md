@@ -1,13 +1,27 @@
-# ALL-IN-ONE PORTFOLIO - KNOW YOUR NETWORTH
+# Stock portfolio and Property analyser
 
 Team members: Shavan Patel, Kevin Chen, Arian Zehtab
 
-*CONVERT TO AUD (USD IF AUD NOT AVAILABLE for all data)*
-
 
 ## PROJECT DESCRIPTION
-Program is a summary of current investment portfolio from multiple investment fields in one program
-We will cover stocks, crypto, and property
+---
+
+This program is a combination analyser for both a stock portfolio and property investment
+
+### Stock Portfolio Analysis:
+
+To analyse your stock portfolio we will take in a csv of your stock trading history with symbols, date of trades, order type (buy/sell), and volume traded.
+We will also need the initial value of your investment.
+
+We will return the valuation of your portfolio over time, as well as chart your returns, and a box spread of your returns. The program will also calculate the standard deviation, and annualized standard deviation, as well as the sharpe ratio of your portfolio. 
+
+### Property
+
+To find details regarding your property, enter in your address and the program will automatically find the closest match for what you typed in.
+
+We will show the median sale price and approximate number of properties sold in your suburb
+
+
 ---
 Help user get total ROI of all investments
 
