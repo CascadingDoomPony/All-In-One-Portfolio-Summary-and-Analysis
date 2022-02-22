@@ -33,7 +33,7 @@ Property and Stock analysis is split up between the two tabs, you can switch bet
 
 Fill in all input prompts as instructed
 
-### Restrictions on input
+## Restrictions on input
 ---
 Although the input fields do not limit you on what you enter, there are a few limitations on what you can put in them for the program to function.
 
@@ -56,3 +56,40 @@ If the date is not in a date format it may break the program
 
 
 The Initial Value of your property must be a number. If the program does not receive a number it will let you know
+
+## Some Notes on interpreting analysis
+---
+### Property
+
+Make sure you check that your property has been found, your address and property type should be listed below. If the information is incorrect, the api may not have received enough information regarding your property, or it is not listed in the api database.
+
+![Text Fields](Images\property-check.png)
+
+The first two graphs show information regarding the sale number and sale price of property specific to your property type.
+
+![median sold](Images\Median-Sold-Price-over-Time.png)
+![property sold](Images\Property-Sold-over-Time.png)
+
+The third graph compares your property purchase price with the median sold price of your property type over the last few years
+
+### Stock
+
+All data uses the total valuation of your portfolio.
+
+![valuation](Images\Portfolio-Value-over-Time.png)
+
+The first graph charts your portfolio's total valuation over time. This is calculated by adjusting your liquid valuation according to the buys and sells you made, and combining this with the total valuation of your stocks.
+
+![change](Images\Portfolio-Change-Over-Time.png)
+
+The second and third graphs are displays of the change in valuation of your portfolio. The first shows only change, the second shows the cumulative change over time
+
+![cum returns](Images\Portfolio-Cumulative-Return.png)
+
+For risk we display a box spread which shows your distribution of movement of the portfolio.
+
+![box spread](Images\Box-Spread-of-Change.png)
+
+Underneath is the standard deviation and annualized standard deviation, which is a numerical measure of how spread out the distribution of movement is on the portfolio
+
+Underneath that is the sharpe ratio, which is a measure of how much return you are getting in comparison to your risk.
