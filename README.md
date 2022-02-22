@@ -93,3 +93,5 @@ For risk we display a box spread which shows your distribution of movement of th
 Underneath is the standard deviation and annualized standard deviation, which is a numerical measure of how spread out the distribution of movement is on the portfolio
 
 Underneath that is the sharpe ratio, which is a measure of how much return you are getting in comparison to your risk.
+
+![risk metrics](Images\std-sharpe-ratio.png)
