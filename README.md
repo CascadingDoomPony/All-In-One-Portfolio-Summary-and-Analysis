@@ -24,3 +24,35 @@ We will show the median sale price and approximate number of properties sold in 
 ## Instructions
 ---
 Open main.ipynb and run all cells from top to bottom
+
+At the bottom you will be presented with some tabs and text fields or a file upload button.
+
+![Text Fields](Images\Text-Fields.png)
+
+Property and Stock analysis is split up between the two tabs, you can switch between them using the tabs above.
+
+Fill in all input prompts as instructed
+
+### Restrictions on input
+---
+Although the input fields do not limit you on what you enter, there are a few limitations on what you can put in them for the program to function.
+
+### Property
+
+You can technically type anything into the text field, but the api call may not always be able to find the address you're looking for. The program will let you know what property it found with the address you entered. If no property is found at all it will also let you know.
+
+
+The purchase price of your property must be a number. If the program does not receive a number it will let you know
+
+### Stock Portfolio
+
+The program will limit you to uploading csvs only, but your csv will need the following columns: [symbol,date,amount,order].
+
+If one of these columns are missing the program may break
+
+The program is designed to handle most cases where bad entries are made to the csv. If a symbol does not return data from the Alpaca Api it will be ignored.
+If a given amount is not an nunber, or the order is not a buy or sell, it will ignore this particular entry.
+If the date is not in a date format it may break the program
+
+
+The Initial Value of your property must be a number. If the program does not receive a number it will let you know
