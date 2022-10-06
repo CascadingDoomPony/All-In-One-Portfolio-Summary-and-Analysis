@@ -27,7 +27,7 @@ Open main.ipynb and run all cells from top to bottom
 
 At the bottom you will be presented with some tabs and text fields or a file upload button.
 
-![Text Fields](Images\Text-Fields.png)
+![Text Fields]("Images\Text-Fields.png")
 
 Property and Stock analysis is split up between the two tabs, you can switch between them using the tabs above.
 
